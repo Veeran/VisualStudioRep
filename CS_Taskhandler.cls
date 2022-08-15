@@ -3,6 +3,7 @@ public class CS_Taskhandler{
 public static void taskhandler(list<case>cases){
 list<task>tasks = new list<task>();
 for(Case c:cases){
+// Create a New Task When Case Gets Created
 Task tsk = New Task();
 tsk.whatid = c.id;
 tsk.whoid = c.ContactId;
