@@ -3,7 +3,7 @@ public class CS_Casehandler{
 public static void casehandler(list<contact>contacts){
     List<Case> cases = new List<Case>();
     for(Contact con: contacts) {
-    //Create a New case
+    //Create a New case with Status Working
     Case cas = new case();
     cas.Contactid = con.id;
     cas.Origin = 'New Contact';
